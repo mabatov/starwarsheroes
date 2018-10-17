@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import './Hero.css'
+import React from 'react';
 
-class Hero extends Component {
-	render() {
-		return (
-			<div className = "f3 tc">
-				<h1>Hello!</h1>
-				<p>Welcome to React</p>
+const Hero = (props) => {
+	return (
+		<div className='yellow bg-dark-gray pa2 ma2 pointer ba b--dotted bw2 shadow-3 flex mr2 mw7 grow'>
+			<img alt='hero' src='http://www.actucine.com/wp-content/uploads/2013/08/Star-Wars.gif' />
+			<div className = "pa3">
+				<h2>{props.name}</h2>
+				<p>Gender: {props.gender}</p>
 			</div>
-			);
-	}
+		</div>
+		);
 }
 
 export default Hero;
