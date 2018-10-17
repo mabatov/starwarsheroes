@@ -6,7 +6,9 @@ const Hero = (props) => {
 			<img alt='hero' src='http://www.actucine.com/wp-content/uploads/2013/08/Star-Wars.gif' />
 			<div className = "pa3">
 				<h2>{props.name}</h2>
-				<p>Gender: {props.gender}</p>
+				<p>Gender: {props.gender} <br/>
+				Height: {props.height} <br/> 
+				Mass: {props.mass}</p>
 			</div>
 		</div>
 		);

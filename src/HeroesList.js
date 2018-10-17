@@ -1,4 +1,4 @@
-export const Heroes = [
+export const HeroesList = [
 		{
 			"name": "Luke Skywalker",
 			"height": "172",
